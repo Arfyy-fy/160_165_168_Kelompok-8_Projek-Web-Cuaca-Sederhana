@@ -2,6 +2,7 @@
 
 Cuaca Dunia merupakan sebuah website sederhana yang dirancang untuk menampilkan informasi cuaca secara real-time dan prakiraan cuaca harian dengan tampilan yang bersih, responsif, dan mudah digunakan. Website ini memungkinkan pengguna untuk melihat kondisi cuaca di beberapa kota populer, mencari kota tertentu, serta mendapatkan detail prakiraan cuaca kota yang dipilih. Weatherly juga dilengkapi fitur dark mode, tampilan tanggal dan waktu real-time, serta integrasi dengan OpenWeather API sehingga informasi yang ditampilkan selalu akurat dan terbaru.
 
+Link Website : https://mahayasa78.github.io/160_165_168-Kelompok-8-Web-Cuaca-Sederhana/
 
 Fitur Utama
 
