@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Cuaca 🌦️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">🏃 Aktivitas</a>
+    <a href="kualitas.html">💨 Kualitas Udara</a>
+    <a href="iklim.html">🌦️ Iklim</a>
+  </nav>
+
+  <div class="container">
+    <div class="top-bar">
+      <div class="datetime" id="dateTime"></div>
+      <button class="dark-mode-btn" onclick="toggleDarkMode()">🌓</button>
+    </div>
+
+    <button class="back-btn" onclick="window.location.href='index.html'">Kembali</button>
+    <h1 id="cityTitle"></h1>
+    <div id="forecastContainer" class="forecast-grid"></div>
+  </div>
+
+  <script src="detail.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kualitas Udara 💨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <a href="index.html">🏃 Aktivitas</a>
+    <a href="kualitas.html">💨 Kualitas Udara</a>
+    <a href="iklim.html">🌦️ Iklim</a>
+  </nav>
+
+  <div class="container">
+    <div class="top-bar">
+      <div class="datetime" id="dateTime"></div>
+      <button class="dark-mode-btn" onclick="toggleDarkMode()">🌓</button>
+    </div>
+
+    <h1>💨 Indeks Kualitas Udara (AQI)</h1>
+    <input type="text" id="cityAQI" placeholder="Masukkan kota...">
+    <button onclick="getAirQuality()">Cari</button>
+
+    <div id="airResult"></div>
+  </div>
+
+  <script src="kualitas.js"></script>
+</body>
+</html>
