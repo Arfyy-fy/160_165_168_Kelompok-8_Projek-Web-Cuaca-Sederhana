@@ -4,7 +4,7 @@ Cuaca Dunia merupakan sebuah website sederhana yang dirancang untuk menampilkan 
 
 Link Website : https://mahayasa78.github.io/160_165_168-Kelompok-8-Web-Cuaca-Sederhana/
 
-Fitur Utama
+# Fitur Utama
 
 - Informasi Cuaca Terkini
 Menampilkan suhu, kondisi cuaca, dan kelembapan kota populer secara real-time.
@@ -24,14 +24,7 @@ Pengguna dapat beralih ke mode gelap untuk kenyamanan visual saat malam hari.
 - Navigasi Sederhana
 Perpindahan antar halaman dilakukan secara cepat tanpa memuat ulang data berulang kali.
 
-Output
-
-<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/91838b70-6754-42b3-90c1-8353b5faef25" />
-<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/8e0f710c-1bbc-445d-9731-f29befe6086e" />
-<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/f33d8b1a-d4f7-49ec-a1b5-1be50aa71761" />
-<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/cd7ca1eb-d98e-4589-beba-c6115cb31e54" />
-
-Teknologi yang Digunakan
+# Teknologi yang Digunakan
 
 - HTML5 – Struktur halaman web
 
@@ -41,9 +34,36 @@ Teknologi yang Digunakan
 
 - OpenWeather API – Sumber data cuaca global
 
-Pengembang
+# Struktur File
+Cuaca Dunia/
 
-Kelompok 8 – D4 Manajemen Informatika, Universitas Negeri Surabaya
+│── index.html         (Halaman Home)
+
+│── Cuaca.html         (Halaman Cuaca)
+
+│── detail.html        (Halaman Detail Cuaca)
+
+│── kritik.html        (Halaman Kritik & Saran)
+
+│── style.css          (Tampilan CSS)
+
+│── index.js           (Logika halaman Cuaca)
+
+│── detail.js          (Logika halaman Detail)
+
+│── kritik.js          (Logika halaman Kritik & Saran)
+
+# Output
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/91838b70-6754-42b3-90c1-8353b5faef25" />
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/8e0f710c-1bbc-445d-9731-f29befe6086e" />
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/f33d8b1a-d4f7-49ec-a1b5-1be50aa71761" />
+<img width="1919" height="1028" alt="image" src="https://github.com/user-attachments/assets/cd7ca1eb-d98e-4589-beba-c6115cb31e54" />
+
+
+# Pengembang
+
+Kelompok 8 – D4 Manajemen Informatika - Fakultas Vokasi, Universitas Negeri Surabaya
 
 - Moch Izzul Maulana H.
 
